@@ -5,7 +5,7 @@ import { Check } from "lucide-react";
 
 const PricingTier = ({ title, prices, features, isPopular = false }) => {
   return (
-    <Card className={`border hover-lift ${isPopular ? 'border-gray-500' : 'border-gray-500'}`}>
+    <Card className={`bg-gray-100 border hover-lift ${isPopular ? 'border-gray-500' : 'border-gray-500'}`}>
       <CardHeader>
         <CardTitle className="text-black text-2xl">{title}</CardTitle>
         <CardDescription className="text-black">
@@ -37,7 +37,7 @@ const PricingTier = ({ title, prices, features, isPopular = false }) => {
         </div>
       </CardContent>
       <CardFooter>
-        <Button className={`w-full ${isPopular ? 'bg-orange-400 text-black hover:orange-700' : 'glass-effect hover:bg-black'}`}>
+        <Button className={`w-full ${isPopular ? 'bg-orange-400 text-black hover:bg-orange-700' : 'glass-effect hover:bg-black'}`}>
           Get Started
         </Button>
       </CardFooter>
@@ -47,7 +47,7 @@ const PricingTier = ({ title, prices, features, isPopular = false }) => {
 
 const AddonService = ({ title, price, features }) => {
   return (
-    <Card className="border hover-lift border-gray-500 p-4">
+    <Card className="border hover-lift bg-gray-100 border-gray-500 p-4">
       <div className="space-y-3">
         <div className="flex justify-between items-center">
           <h3 className="text-black text-lg font-semibold">{title}</h3>
@@ -141,7 +141,7 @@ const Pricing = () => {
           <h2 className="text-4xl font-bold text-black mb-4">
             Pricing Plans
           </h2>
-          <p className="text-xl text-black max-w-2xl mx-auto">
+          <p className="text-xl text-gray-700 max-w-2xl mx-auto">
             Choose the plan that fits your business needs. For transactions over 500+, contact us for a custom quote.
           </p>
         </div>

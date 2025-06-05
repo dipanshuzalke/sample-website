@@ -45,7 +45,7 @@ const Features = () => {
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold mb-2 text-black">{feature.title}</h3>
-                  <p className="text-black">{feature.description}</p>
+                  <p className="text-gray-700">{feature.description}</p>
                 </div>
               </Card>
             ))}

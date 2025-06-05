@@ -28,7 +28,7 @@ const Testimonials = () => {
         <h2 className="text-4xl font-bold text-black text-center mb-4">
           What Our Clients Say
         </h2>
-        <p className="text-xl text-black text-center mb-12 max-w-2xl mx-auto">
+        <p className="text-xl text-gray-700 text-center mb-12 max-w-2xl mx-auto">
           Join businesses who have transformed their financial management with our services
         </p>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

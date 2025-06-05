@@ -4,7 +4,7 @@ import { Button } from "./ui/button";
 
 const Footer = () => {
   return (
-    <footer className="py-20 px-4 bg-background relative overflow-hidden border border-t-2" id="contact">
+    <footer className="py-20 px-4 bg-background relative overflow-hidden border border-gray-500-t-1" id="contact">
       <div className="absolute inset-0 bg-accent/5 backdrop-blur-3xl"></div>
       <div className="max-w-7xl mx-auto relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12">

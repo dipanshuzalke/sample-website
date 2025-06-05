@@ -10,7 +10,7 @@ const Hero = () => {
           <h1 className="text-5xl md:text-6xl font-bold text-black leading-tight">
             Transforming Chaos to Clarity, one transaction at a time.
           </h1>
-          <p className="text-lg text-black max-w-xl">
+          <p className="text-lg text-gray-500 max-w-xl">
             We specialize in restoring clarity to your finances, ensuring you maintain a firm grip on your business's financial health so that you can focus on what you truly love – your business.
           </p>
           <Button className="px-8 py-6 text-lg bg-orange-400 text-white hover:bg-orange-700 flex items-center gap-2">
