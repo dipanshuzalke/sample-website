@@ -8,11 +8,11 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <div className="text-2xl font-bold text-black">Procountants</div>
         <div className="hidden md:flex items-center space-x-8">
-          <a href="#" className="text-gray-700 hover:text-black transition-colors">Home</a>
-          <a href="#" className="text-gray-700 hover:text-black transition-colors">Services</a>
-          <a href="#" className="text-gray-700 hover:text-black transition-colors">Pricing</a>
-          <a href="#" className="text-gray-700 hover:text-black transition-colors">About</a>
-          <a href="#" className="text-gray-700 hover:text-black transition-colors">Contact</a>
+          <a href="#hero" className="text-gray-700 hover:text-black transition-colors">Home</a>
+          <a href="#why-choose-us" className="text-gray-700 hover:text-black transition-colors">Services</a>
+          <a href="#pricing" className="text-gray-700 hover:text-black transition-colors">Pricing</a>
+          <a href="#about" className="text-gray-700 hover:text-black transition-colors">About</a>
+          <a href="#contact" className="text-gray-700 hover:text-black transition-colors">Contact</a>
           <Button className="bg-orange-400 text-white hover:bg-orange-700">
             Book a Consultation
             <Calendar className="w-4 h-4 ml-2" />

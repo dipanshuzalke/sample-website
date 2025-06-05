@@ -5,7 +5,7 @@ import { Check } from "lucide-react";
 
 const PricingTier = ({ title, prices, features, isPopular = false }) => {
   return (
-    <Card className={`bg-gray-100 border hover-lift ${isPopular ? 'border-gray-500' : 'border-gray-500'}`}>
+    <Card className={`bg-gray-100 border hover-lift ${isPopular ? 'border-gray-500' : 'border-gray-500'}`} id="pricing">
       <CardHeader>
         <CardTitle className="text-black text-2xl">{title}</CardTitle>
         <CardDescription className="text-black">

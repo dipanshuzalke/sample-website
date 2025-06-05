@@ -4,7 +4,7 @@ import { Calendar } from "lucide-react";
 
 const Hero = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center px-4 pt-20 bg-gray-100">
+    <div className="min-h-screen flex items-center justify-center px-4 pt-20 bg-gray-100" id="hero">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         <div className="space-y-8">
           <h1 className="text-5xl md:text-6xl font-bold text-black leading-tight">
