@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+@layer base {
+  :root {
+    --background: 0 0% 100%; 
+    --foreground: 20 14.3% 4.1%; 
+    --radius: 1.2rem;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-white text-foreground antialiased;
+  }
+}
+
+.glass-effect {
+  @apply bg-white/5 backdrop-blur-lg border border-white/10;
+}
+
+.hover-lift {
+  @apply transition-transform duration-300 hover:-translate-y-1;
+}
